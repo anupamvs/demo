@@ -1,183 +1,63 @@
-@media only screen and (min-width: 992px){
-    .parent-container
-	{
-		margin-left: 300px;
-	}
+.padding-left-0{
+	padding-left: 0px !important;
 }
-@media only screen and (max-width: 991px) {
-    .parent-container
-	{
-		margin-left: 0px;
-	}
+.margin-0{
+	margin: 0px !important;
 }
-input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
-{
-    border-bottom: 1px solid #64b5f6;
-    -webkit-box-shadow: 0 1px 0 0 #64b5f6;
-    box-shadow: 0 1px 0 0 #64b5f6;
+body{
+    font-family: 'Roboto' !important;
+    font-weight: lighter !important;
 }
-input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label
-{
-	color:#64b5f6;
+:root {
+  --avatar-size: 18rem;
+  /* change this value anything, e.g., 100px, 10rem, etc. */
 }
-margin-bottom-none
-{
-	margin-bottom: 0px !important;
+
+.circle {
+  background-color: #ccc;
+  border-radius: 50%;
+  height: 40px;
+  text-align: center;
+  width: 40px;
 }
-margin-top-none
-{
-	margin-top: 0px;
+
+.initials {
+  font-size: 17px; /* 50% of parent */
+  line-height: 1;
+  position: relative;
+  top: 12; /* 25% of parent */
 }
-margin-left-none
-{
-	margin-left: 0px;
+.card-margin{
+    margin:5px !important;
 }
-margin-right-none
-{
-	margin-right: 0px;
+.card-panel{
+    padding:10px;
+    border-radius: 5px;
 }
-.row
-{
-	margin-bottom: 0px;
+.card-title-text{
+	color: #616161;
+	font-size:13px;
 }
-.collapsible-header
-{
-	display: block;
-	padding-right: 0px;
+.card-sub-text{
+	color: #616161;
+	font-size:11px;
 }
-.progress
-{
-	margin:0px;
-	z-index: 5 !important;
-	position: fixed;
-	top:0px;
-	background-color: white;
+.card-content-text{
+	color: #616161;
+	font-size:13px;
 }
-.progress .indeterminate
-{
-	background-color: #1976d2;
+.card-content-image{
+	max-height: 70px;
+	border-radius:5px; 
 }
-.collapsible-header i:hover
-{
-	transition-delay: .1s;
-	color:gray !important;
+.card-operation{
+	padding: 10px 0px 0px 0px;
 }
-.select-wrapper ul li
-{
-	color: black !important;
-}
-input:-internal-autofill-previewed, input:-internal-autofill-selected, textarea:-internal-autofill-previewed, textarea:-internal-autofill-selected, select:-internal-autofill-previewed, select:-internal-autofill-selected 
-{
-	background-color: white !important;
-}
-.max-width-100-percent
-{
-	max-width: 100%;
-}
-.card-action a
-{
-	cursor: pointer;
-}
-.capitalize
-{
-	text-transform: capitalize;
-}
-.login
-{
+.padding-20{
 	
-	max-width: 40%;
-	margin:10% auto 0px auto;
-	border-radius: 10px;
-	position: relative;
 }
-@media screen and (max-width: 992px) 
-{
-	.login
-	{
-		max-width:60%;
-	}
-}
-@media screen and (max-width: 600px) 
-{
-	.login
-	{
-		max-width:80%;
-	}
-}
-.absolute
-{
-	position: absolute;
-}
-.padding-25
-{
-	padding: 25px;
-}
-.rounded-border-top
-{
-	border-radius: 15px 15px 0px 0px;
-}
-@media only screen and (max-width: 992px)
-{}
-.sidenav.sidenav-fixed {
-    -webkit-transform: translateX(-105%);
-    transform: translateX(-105%);
-}
-.menu
-{
-	position: fixed;
-	top:1em;
-	left: 1em;
-}
-.sidenav .collapsible-body>ul:not(.collapsible)>li.active, .sidenav.sidenav-fixed .collapsible-body>ul:not(.collapsible)>li.active
-{
-	background-color: #64b5f6;
-}
-.large-text
-{
-	font-size: 4em;
-	font-weight: bold;
-}
-.search-box
-{
-	border:none !important; 
-	box-shadow: none !important; 
-	background: inherit !important;
-}
-.product-card-image
-{
-	max-height: 100%;
-	max-width: 100%;
-}
-.thumbnail
-{
-	max-height: 150px;
-}
-.image-div-thumb
-{
-	height: 340px;
-}
-.hover-red:hover
-{
-	color: red;
-	cursor: pointer;
-}
-.cart-img
-{
-	max-width: 100%;
-}
-.layer
-{
-	background-color: rgba(0,0,0,.5);
-}
-a
-{
-	cursor: pointer !important;
-}
-.pagination li.active
-{
-	background-color: #1976d2;
-}
-.menu-bar-top
-{
-	z-index: 4;
+.gold-badge{
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
 }
