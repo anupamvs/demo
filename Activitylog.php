@@ -9,6 +9,7 @@
                 $('.collapsible').collapsible();
                 $('#activity').removeClass('white-text').addClass('grey-text');
                 $('.materialboxed').materialbox();
+                $('.fixed-action-btn').floatingActionButton();
             });
         </script>
         <style type="text/css">
@@ -16,7 +17,14 @@
                 font-family: 'Roboto' !important;
                 font-weight: lighter !important;
             }
-            
+            .fixed-action-btn {
+                position: fixed;
+                right: 23px;
+                bottom: 4em;
+                padding-top: 15px;
+                margin-bottom: 0;
+                z-index: 997;
+            }
         </style>
     </head>
     <body>
@@ -98,6 +106,16 @@
             </div>
             <div class="center" style="margin-top: 20px;">
                 <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+            </div>
+            <div class="fixed-action-btn ">
+                <a class="btn-floating btn blue click-to-toggle">
+                    <i class="fa fa-plus material-icon" aria-hidden="true"></i>
+                    
+                </a>
+                <ul>
+                    <li><a class="btn-floating red"><i class="fa fa-exclamation-circle material-icon" aria-hidden="true"></i></a></li>
+                    <li><a class="btn-floating green"><i class="fa fa-sticky-note material-icon" aria-hidden="true"></i></a></li>
+                </ul>
             </div>
         </div>
     </body>

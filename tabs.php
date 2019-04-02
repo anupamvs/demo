@@ -5,7 +5,7 @@
 				<i class="fa fa-map fa-2x" aria-hidden="true"></i>
 			</div>
 		</a>
-		<a href="">
+		<a href="Energy.php">
 			<div id="energy" class="col s3 white-text center">
 				<i class="fa fa-bolt fa-2x" aria-hidden="true"></i>
 			</div>

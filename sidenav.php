@@ -1,21 +1,20 @@
-
 <ul id="slide-out" class="sidenav">
 <li>
 	<div class="user-view row blue">
-      <div class="col s4 padding-left-0">    
-      	<a href="#user" class="col"><img class="circle padding-left-0 z-depth-2" src="assets/images/avatar.png"></a>
-      </div>
-      <div class="col s8 padding-left-0">
-     	  <b>
-          <a href="#name" class="col"><span class="white-text name" style="margin-top: 8px;">     Hi! Anupam</span></a>
-        </b>
-        <b>
-        	<a href="#email" class="col"><span class="white-text email" style="padding-bottom: 0px;">anupam@tekdi.com</span></a>
-          <a href="#email" class="col"><span class="white-text email"><i class="fa fa-map-marker" aria-hidden="true"></i>
-        Kothrud, Pune</span></a>
-        </b>
-      </div>
-    </div>
+            <div class="col s4 padding-left-0">    
+              <a href="#user" class="col"><img class="circle padding-left-0 z-depth-2" src="assets/images/avatar.png"></a>
+            </div>
+            <div class="col s8 padding-left-0">
+                <b>
+                    <a href="#name" class="col"><span class="white-text name" style="margin-top: 8px;">     Hi! Anupam</span></a>
+                </b>
+                <b>
+                    <a href="#email" class="col"><span class="white-text email" style="padding-bottom: 0px;">anupam@tekdi.com</span></a>
+                    <a href="#email" class="col"><span class="white-text email"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    Kothrud, Pune</span></a>
+                </b>
+            </div>
+        </div>
 </li>
 <li>
   <ul class="collapsible collapsible-accordion">
