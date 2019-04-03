@@ -68,7 +68,7 @@
 <li>
   <ul class="collapsible collapsible-accordion">
         <li id="badges">
-          <a  href="badge.php" class="collapsible-header waves-effect" >Badges<i class="fa fa-trophy" aria-hidden="true"></i></a>
+          <a  href="Badge.php" class="collapsible-header waves-effect" >Badges<i class="fa fa-trophy" aria-hidden="true"></i></a>
           <div class="collapsible-body">
               <ul>
               </ul>
@@ -101,7 +101,7 @@
 <li>
   <ul class="collapsible collapsible-accordion">
         <li id="profile">
-          <a  href="profile.php" class="collapsible-header waves-effect" >My Profile<i class="fa fa-user" aria-hidden="true"></i></a>
+          <a  href="Profile.php" class="collapsible-header waves-effect" >My Profile<i class="fa fa-user" aria-hidden="true"></i></a>
           <div class="collapsible-body">
               <ul>
               </ul>

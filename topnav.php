@@ -4,8 +4,8 @@
 		</a>
 		<a href="#" class="" id="title">Smart Citizen</a>
 		<ul class="right">
-                    <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-                    <li><a href="badges.html"><i class="material-icons">notifications</i></a></li>
+                    <li><a href="#"><i class="material-icons">search</i></a></li>
+                    <li><a href="notification.php"><i class="material-icons">notifications</i></a></li>
                 </ul>
 	</div>
 </nav>

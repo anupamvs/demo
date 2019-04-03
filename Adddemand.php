@@ -7,6 +7,7 @@
             $(document).ready(function(){
                 $('.sidenav').sidenav();
                 $('.collapsible').collapsible();
+                $("#title").html("New Demand");
             });
         </script>
         <style type="text/css">
@@ -25,41 +26,31 @@
         </style>
     </head>
     <body>
-        <div>
-            <div class="row blue" style="height: 200px;">
-                <div class="col s10" style="margin-top: 10px;">
-                    <h5 class="margin-0 white-text" style="">SmartCitizen</h5>
-                </div>
-                <div class="col s2">
-                    <i class="material-icons white-text" style="margin-top: 12px; margin-left: 15px;">close</i>
-                </div>
-                <div class="section" style="height: 130px;">
-                </div>
+        <?php
+        require_once './topnav2.php';
+        require_once './sidenav.php';
+        ?>
+        <div class="row">
+            <div class="col s12" style="height: 20px"></div>
+            <form class="col s12">
                 <div class="row">
-                    <div class="col s8">
-                        <p class="white-text">
-                            Please enter your details to continue
-                        </p>
+                    <div class="input-field col s12">
+                        <input placeholder="Add Title" id="name" type="text" class="validate">
+                        <label for="name" class="orange-text">Title</label>
                     </div>
-                    <div class="col s4">
+                    <div class="input-field col s12">
+                        <input placeholder="Select Category" id="cat" type="text" class="validate">
+                        <label for="cat" class="orange-text">Category</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <textarea id="desc" class="materialize-textarea" rows="5" placeholder="Description"></textarea>
+                        <label for="desc" class="orange-text">Add Description</label>
+                    </div>
+                    <div class="col s12">
+                        <button class="btn orange white-text" style="width: 100%"> submit </button>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s12">
-                          <input placeholder="" id="first_name" type="text" class="validate">
-                          <label for="first_name" class="orange-text">Email/Mobile No.</label>
-                        </div>
-                        <div class="col s12" style="height: 20px">
-                        </div>
-                        <div class="col s12">
-                            <button class="btn orange white-text" style="width: 100%"> CONTINUE </button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>        
+            </form>
+        </div>
     </body>
 </html>

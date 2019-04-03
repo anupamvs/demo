@@ -25,20 +25,30 @@
         </style>
     </head>
     <body>
+        <nav class="blue">
+            <div class="nav-wrapper">
+                <a href="#" data-target="slide-out" class="sidenav-trigger left">
+                    <i class="material-icons">arrow_back</i>
+                </a>
+                <a href="">
+                    <i class="material-icons white-text right" style="margin-right: 15px;">close</i>
+                </a>
+            </div>
+        </nav>
         <div>
             <div class="row blue" style="height: 200px;">
                 <div class="col s10" style="margin-top: 10px;">
                     <h5 class="margin-0 white-text" style="">SmartCitizen</h5>
                 </div>
                 <div class="col s2">
-                    <i class="material-icons white-text" style="margin-top: 12px; margin-left: 15px;">close</i>
+                    
                 </div>
                 <div class="section" style="height: 130px;">
                 </div>
                 <div class="row">
                     <div class="col s8">
                         <p class="white-text">
-                            Please enter your details to continue
+                            Please enter OTP to continue
                         </p>
                     </div>
                     <div class="col s4">
@@ -49,13 +59,13 @@
                 <form class="col s12">
                     <div class="row">
                         <div class="input-field col s12">
-                          <input placeholder="" id="first_name" type="text" class="validate">
-                          <label for="first_name" class="orange-text">Email/Mobile No.</label>
+                          <input placeholder="Enter OTP" id="otp" type="text" class="validate">
+                          <label for="otp" class="orange-text">OTP</label>
                         </div>
                         <div class="col s12" style="height: 20px">
                         </div>
                         <div class="col s12">
-                            <button class="btn orange white-text" style="width: 100%"> CONTINUE </button>
+                            <button class="btn orange white-text" style="width: 100%"> login </button>
                         </div>
                     </div>
                 </form>
