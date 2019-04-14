@@ -42,13 +42,13 @@
                 data: {
                     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                     datasets: [{
-                        label: 'Positive',
+                        label: 'Negative',
                         backgroundColor: 'rgba(255, 99, 132,.5)',
                         borderColor: 'rgb(255, 99, 132)',
                         data: [0, 10, 5, 2, 20, 30, 10]
                     },
                     {
-                        label: 'Negative',
+                        label: 'Positive',
                         backgroundColor: 'rgba(0,128,0,.5)',
                         borderColor: 'rgb(0,128,0)',
                         data: [20, 80, 50, 20, 30, 50, 45]
@@ -62,10 +62,10 @@
             var myChart = new Chart(infra, {
                 type: 'bar',
                 data: {
-                    labels: ['Hospital', 'School', 'Yellow', 'Garden', 'Purple', 'Orange'],
+                    labels: ['Hospital', 'School', 'Temple', 'Garden', 'Resturant', 'Others'],
                     datasets: [{
-                        label: ['Hospital', 'School', 'Yellow', 'Garden', 'Purple', 'Orange'],
-                        data: [12, 19, 3, 5, 2, 3],
+                        label: 'Energy %',
+                        data: [12, 5, 18, 18, 12, 3],
                         backgroundColor: [
                             'rgba(255, 99, 132, 0.2)',
                             'rgba(54, 162, 235, 0.2)',

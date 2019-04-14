@@ -56,11 +56,14 @@
                         </div>
                     </div>
                     <div class="row margin-0 card-operation">
-                        <div class="col s6 center">
+                        <div class="col s4 center">
                             <a href="Viewcomplaint.php">View</a>
                         </div>
-                        <div class="col s6 center">
-                            <a href="#">Report</a>
+                        <div class="col s4 center">
+                            <a href="#">Assign</a>
+                        </div>
+                        <div class="col s4 center">
+                            <a href="#">Reject</a>
                         </div>
                     </div>
                 </div>
@@ -87,11 +90,14 @@
                         </div>
                     </div>
                     <div class="row margin-0 card-operation">
-                        <div class="col s6 center">
+                        <div class="col s4 center">
                             <a href="Viewcomplaint.php">View</a>
                         </div>
-                        <div class="col s6 center">
-                            <a href="#">Report</a>
+                        <div class="col s4 center">
+                            <a href="#">Assign</a>
+                        </div>
+                        <div class="col s4 center">
+                            <a href="#">Reject</a>
                         </div>
                     </div>
                 </div>
@@ -118,11 +124,14 @@
                         </div>
                     </div>
                     <div class="row margin-0 card-operation">
-                        <div class="col s6 center">
+                        <div class="col s4 center">
                             <a href="Viewcomplaint.php">View</a>
                         </div>
-                        <div class="col s6 center">
-                            <a href="#">Report</a>
+                        <div class="col s4 center">
+                            <a href="#">Assign</a>
+                        </div>
+                        <div class="col s4 center">
+                            <a href="#">Reject</a>
                         </div>
                     </div>
                 </div>

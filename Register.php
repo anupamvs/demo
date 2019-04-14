@@ -35,24 +35,24 @@
             <form class="col s12">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input placeholder="Enter Name" id="name" type="text" class="validate">
-                        <label for="name" class="orange-text">Name</label>
+                        <input placeholder="Enter Name" id="fname" type="text" class="validate">
+                        <label for="fname" class="orange-text">Name</label>
                     </div>
                     <div class="input-field col s12">
-                        <input placeholder="Enter Password" id="cat" type="text" class="validate">
-                        <label for="cat" class="orange-text">Password</label>
+                        <input placeholder="Enter Password" id="pwd" type="password" class="validate">
+                        <label for="pwd" class="orange-text">Password</label>
                     </div>
                     <div class="input-field col s12">
-                        <input placeholder="Enter Confirm Password" id="cat" type="text" class="validate">
-                        <label for="cat" class="orange-text">Confirm Password</label>
+                        <input placeholder="Enter Confirm Password" id="cpwd" type="password" class="validate">
+                        <label for="cpwd" class="orange-text">Confirm Password</label>
                     </div>
                     <div class="input-field col s12">
-                        <input placeholder="Enter Nick Name" id="cat" type="text" class="validate">
-                        <label for="cat" class="orange-text">Nick Name</label>
+                        <input placeholder="Enter Nick Name" id="nick" type="text" class="validate">
+                        <label for="nick" class="orange-text">Nick Name</label>
                     </div>
                     <div class="input-field col s12">
-                        <input placeholder="Enter OTP send on email/mobile" id="cat" type="text" class="validate">
-                        <label for="cat" class="orange-text">Enter OTP</label>
+                        <input placeholder="Enter OTP send on email/mobile" id="opt" type="text" class="validate">
+                        <label for="opt" class="orange-text">Enter OTP</label>
                     </div>
                     <div class="input-field col s12">
                         <textarea id="desc" class="materialize-textarea" rows="5" placeholder="Enter Address"></textarea>
